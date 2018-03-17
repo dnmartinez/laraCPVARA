@@ -5,12 +5,6 @@ import ContactComponent from './components/ContactComponent.vue';
 
 import VueRouter from 'vue-router';
 
-import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
-
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
-
 import $ from 'jquery';
 
 /**
@@ -24,7 +18,6 @@ require('./bootstrap');
 window.Vue = require('vue');
 window.$ = window.jQuery = $;
 
-Vue.use(BootstrapVue);
 Vue.use(VueRouter);
 
 /**
@@ -156,5 +149,5 @@ function toggleBounce() {
         marker.setAnimation(null);
     } else {
         marker.setAnimation(google.maps.Animation.BOUNCE);
-    }
+  }
 }

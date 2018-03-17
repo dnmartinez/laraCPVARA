@@ -19,6 +19,7 @@
 			<div id="app">
 				<nav-component></nav-component>
 					<router-view></router-view>
+					
 			</div>
 
 			<!--<section class="container-fluid d-flex justify-content-center justify-content-md-end justify-content-lg-end align-items-end align-items-md-end hero">
